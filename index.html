@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qvaestvm</title>
+    <link rel="shortcut icon" href="ico-favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="menu-principal"><a href="#"> <img src="imagens/Frame 5.png" alt="logo"></a><ol><li>Home</li></ol></nav>
+    <header>
+        <h1>SEJA QVAESTVM</h1>
+        <h2>Faça Parte da Transformação: Seja Qvaestvm!</h2>
+    </header>
+    <main>
+        <section class="primeira-sessao">
+            <p>Você é apaixonado por tecnologia, inovação e acredita no poder da Inteligência Artificial Generativa para gerar impacto positivo? Na Qvaestvm, buscamos talentos que compartilhem de nossos valores de respeito, colaboração, entusiasmo e comprometimento. Se você quer fazer parte de um ecossistema que potencializa o futuro, decisão por decisão e acredita que juntos somos melhores e mais fortes!</p>
+        </section>
+        <section class="contato">
+            <form class="formulario-contato">
+                <h3>Por gentileza, preencha os dados abaixo para fazer parte do nosso Banco de Talentos, cadastre seu currículo e envie sua mensagem:</h3>
+                <section class="inputs">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Área que Deseja Atuar">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Telefone">
+                    <input type="url" placeholder="Perfil do LinkedIn(Opcional)">
+                    <textarea placeholder="Mensagem"></textarea>
+                    <input type="file" id="curriculo" class="input-arquivo" name="curriculo" accept=".pdf,.doc,.docx">
+                    <label for="curriculo" class="upload-text">Caso Deseje Cadastre seu Currículo</label>
+                </section>
+                <button type="submit" class="botao-azul">Enviar Mensagem</button>
+            </form>
+            <img src="imagens/picture.png" alt="Contato">
+        </section>
+        <section class="dados-qvaestvm">
+  <!-- Linha 1: informações da empresa -->
+        <div class="info-contato">
+            <p>Endereço: Rua José Versolato, 111 Centro, São Bernardo do Campo - SP CEP: 09750-730</p>
+            <p>Telefone: (11) 9999-9999</p>
+            <p>Telefone Alternativo: (11) 9999-9999</p>
+            <p>E-mail: lorem@qvaestvm.com</p>
+            <p>Horário de Atendimento: Segunda a sexta: 9h às 18h</p>
+        </div>
+
+  <!-- Linha 2: ícones à direita -->
+        <div class="rodape-direita">
+            <a href="https://br.linkedin.com/company/qvaestvm" target="_blank"><img src="imagens/mdi_linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.instagram.com/qvaestvm/" target="_blank"><img src="imagens/mdi_instagram.svg" alt="instagram"></a>
+            <a href="" target="_blank"><img src="imagens/mdi_youtube.svg" alt="youtube"></a>
+            <a href="" target="_blank"><img src="imagens/ic_baseline-facebook.svg" alt="facebook"></a>
+        </div>
+        </section>
+       <footer>
+  <!-- Linha inferior: texto + links -->
+  <div class="rodape-bottom">
+    <p>© 2025 Qvaestvm. Todos os direitos reservados</p>
+    <nav class="links-rodape">
+      <a href="">Política de Privacidade</a>
+      <a href="">Termos de Uso</a>
+      <a href="">Política de Cookies</a>
+      <a href="">Lei Geral de Proteção de Dados (LGPD)</a>
+    </nav>
+  </div>
+</footer>
+    </main>
+
+    <div class="overlay-qvaestinho hidden" id="overlayQvaestinho">
+    <div class="qvaestinho-conteudo">
+        <button type="button" class="close-x-qvaestinho" onclick="closeOverlayQvaestinho()" aria-label="Fechar">
+            &times;
+        </button>
+        <img src="imagens/qvaestinho-prata-sem-limites.png" alt="qvaestinho">
+        <h2>Obrigado!</h2>
+        <p>Muito obrigado pelo contato. Sua mensagem foi recebida com sucesso. Aguarde que, em breve, lhe daremos um retorno.</p>
+        <button type="button" class="button-thank-you" onclick="closeOverlayQvaestinho()">Thank You</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
