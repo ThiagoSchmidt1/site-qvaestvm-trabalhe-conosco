@@ -74,7 +74,7 @@ nav ol {
     gap: 32px;
 }
 
-nav ol li {
+.button-home {
     display: flex;
     padding: 16px;
     justify-content: center;
@@ -84,6 +84,7 @@ nav ol li {
     color: var(--branco-principal);
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
 
     /* button texto */
     font-family: Poppins;
@@ -93,8 +94,8 @@ nav ol li {
     line-height: normal;
 }
 
-nav ol li:hover,
-nav ol li:focus-visible {
+.button-home:hover,
+.button-home:focus-visible {
     box-shadow: 0 0 30px 0 var(--azul-principal);
     transform: translateY(-1px);
 }
@@ -647,4 +648,5 @@ footer {
     nav ol li:focus-visible {
         box-shadow: 0 0 0 2px #000;
     }
+
 }
